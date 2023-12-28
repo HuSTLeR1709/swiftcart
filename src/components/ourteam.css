@@ -1,0 +1,15 @@
+
+
+@media (max-width:480px) {
+    .texthold{
+        margin-top: 10px;
+
+}
+.teamlist{
+    gap: 30px;
+}
+    .holder{
+        gap: 40px;
+        padding-bottom: 30px;
+    }
+}
