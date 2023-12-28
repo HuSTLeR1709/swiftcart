@@ -1,7 +1,28 @@
 import React from 'react'
+import { toast } from 'react-toastify';
 import './footer.css'
 import { Link } from 'react-router-dom'
 const Footer = () => {
+  const handlepages = () => {
+    // Call your add to cart function
+    
+
+    // Show a toast notification
+    toast.error('Will be Added Soon', {
+      position: 'top-center',
+      autoClose: 3000, // Time in milliseconds
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      progressBar:{
+        style:{
+        background:"blue",
+      }
+    }
+    });
+  };
   return (
     <>
         <div className='footer w-full h-auto'>
@@ -13,10 +34,10 @@ const Footer = () => {
                 <p className='hover:text-orange-600'><Link to='/'>Home</Link></p>
                 <p className='hover:text-orange-600'><Link to='/about' onClick={window.scrollTo(0,0)}>About us</Link></p>
                 <p className='hover:text-orange-600'><Link to='/ourteam'>Our Team</Link></p>
-                <p className='hover:text-orange-600'>FAQ</p>
-                <p className='hover:text-orange-600'>Terms of use</p>
-                <p className='hover:text-orange-600'>Payments</p>
-                <p className='hover:text-orange-600'>Shipping</p>
+                <p className='hover:text-orange-600' onClick={()=>{handlepages()}}>FAQ</p>
+                <p className='hover:text-orange-600' onClick={()=>{handlepages()}}>Terms of use</p>
+                <p className='hover:text-orange-600' onClick={()=>{handlepages()}}>Payments</p>
+                <p className='hover:text-orange-600' onClick={()=>{handlepages()}}>Shipping</p>
             </div>
             <div className='icon text-3xl flex gap-8'>
             <i class="fab fa-instagram"></i>

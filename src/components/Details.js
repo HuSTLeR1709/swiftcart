@@ -12,7 +12,7 @@ const Details = (props) => {
     
         // Show a toast notification
         toast.success('Item Added to Cart', {
-          position: 'top-right',
+          position: 'bottom-center',
           autoClose: 3000, // Time in milliseconds
           hideProgressBar: false,
           closeOnClick: true,

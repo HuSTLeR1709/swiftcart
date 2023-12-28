@@ -41,7 +41,7 @@ root.render(
   <Footer/>
   </BrowserRouter>
   </ShopContextProvider>
-  <ToastContainer/>
+  <ToastContainer className='custom-toast'/>
   
   </>
   
