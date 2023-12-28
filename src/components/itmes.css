@@ -1,0 +1,10 @@
+@media (max-width:480px) {
+    .image{
+        height: 100px;
+    }
+    .name{
+        font-size: 0.75em;
+        line-height: normal;
+    }
+    
+}

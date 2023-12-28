@@ -1,0 +1,11 @@
+.itemholder{
+   
+        overflow-y: scroll; 
+        scrollbar-width: thin;
+        scrollbar-color: transparent;
+     
+}
+
+/* .itemholder::-webkit-scrollbar-thumb {
+    background-color: transparent; 
+  } */
