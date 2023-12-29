@@ -18,6 +18,7 @@ import Itemdetails from './components/Itemdetails';
 import OurTeam from './components/OurTeam';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import NotFound from './components/NotFound'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
@@ -37,8 +38,10 @@ root.render(
     </Route>
     <Route path='/about' element={<Aboutus/>}/>
     <Route path='/ourteam' element={<OurTeam/>}/>
+    <Route path='*' element={<NotFound />} />
   </Routes>
   <Footer/>
+  
   </BrowserRouter>
   </ShopContextProvider>
   <ToastContainer className='custom-toast'/>

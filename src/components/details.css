@@ -1,0 +1,54 @@
+@media (max-width:480px) {
+    .detailscontainer{
+        padding-top: 60px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .detailsname{
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+    .detailimg{
+        width: 250px;
+        margin-left: 1px;
+    }
+    .detailsmain{
+        flex-direction: column;
+        padding: 2px;
+    }
+    .lefttside{
+        margin-top: 10px;
+        width: 80%;
+        margin-bottom: 20px;
+    
+    }
+    .smallimg{
+        display: none;
+    }
+    .rightside{
+        padding: 1px;
+        gap: 5px;
+    }
+    .price{
+        font-size: 1.25em;
+        margin-bottom: 1px;
+    }
+    .pricenew{
+        font-size: 1.5em;
+    }
+    .chart{
+        font-size: 0.75em;
+        margin-top: 1px;
+    }
+    .addtocartbutton{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width:480px) {
+    .leftside{
+        width: max-content;
+    }
+    
+}
