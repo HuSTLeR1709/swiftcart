@@ -14,7 +14,7 @@ const Items = (props) => {
         </div></Link>
         <p className='name text-xl font-medium'>{props.name}</p>
 
-        <p className='price font-medium text-red-500 line-through'>{props.old_price}</p> <span className='font-medium text-blue-600'>{props.new_price}</span>
+        <p className='itemprice font-medium text-red-500 line-through'>{props.old_price}</p> <span className='font-medium text-blue-600'>{props.new_price}</span>
 
         </div>
     

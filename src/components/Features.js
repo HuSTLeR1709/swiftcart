@@ -1,22 +1,23 @@
 import React from 'react'
+import './features.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar, faTags, faExchangeAlt } from '@fortawesome/free-solid-svg-icons'
 
 const Features = () => {
   return (
-    <div className="relative isolate overflow-hidden bg-blue-100 sm:py-24 lg:py-6 my-10">
-    <div className="flex justify-evenly">
-    <div className='flex gap-3 flex-col font-semibold text-2xl text-orange-700'>
+    <div className="featurescontainer relative isolate overflow-hidden bg-blue-100 sm:py-24 lg:py-6 my-10">
+    <div className="featureswrapper flex justify-evenly">
+    <div className='featurestxt flex gap-3 flex-col font-semibold text-2xl text-orange-700'>
     <FontAwesomeIcon icon={faStar} />
-      <p>Trending Styles From Top Brands</p>
+      <p className='intxt'>Trending Styles From Top Brands</p>
     </div>
-    <div   className='flex gap-3 flex-col font-semibold text-2xl text-orange-700'>
+    <div   className='featurestxt flex gap-3 flex-col font-semibold text-2xl text-orange-700'>
     <FontAwesomeIcon icon={faTags} />
-      <p>Best Prices on Top products</p>
+      <p className='intxt'>Best Prices on Top products</p>
     </div>
-    <div  className='flex gap-3 flex-col font-semibold text-2xl text-orange-700'>
+    <div  className='featurestxt flex gap-3 flex-col font-semibold text-2xl text-orange-700'>
     <FontAwesomeIcon icon={faExchangeAlt} />
-     <p>Easy returns on Every Order</p> 
+     <p className='intxt'>Easy returns on Every Order</p> 
     </div>
       
     </div>

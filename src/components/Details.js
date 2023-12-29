@@ -64,9 +64,9 @@ const Details = (props) => {
         <div>
             <p className='text-xl'>Seller<span className='text-blue-400 text-lg ml-10 cursor-pointer'> TradeFashionLtd. </span></p>
         </div>
-        <div className='flex justify-between text-xl'>
+        <div className='askquestion flex justify-between text-xl'>
             <p>Have any questions about this product?</p>
-            <button className='border-2 px-12 py-1  bg-yellow-300 hover:bg-blue-300'>Ask your questions</button>
+            <button className='askbutton border-2 px-12 py-1  bg-yellow-300 hover:bg-blue-300'>Ask your questions</button>
         </div>
         <div>
 

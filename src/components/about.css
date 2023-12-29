@@ -2,3 +2,27 @@
     background: rgb(110,143,255);
 background: linear-gradient(180deg, rgba(110,143,255,1) 0%, rgba(255,255,255,1) 95%);
 }
+
+@media (max-width:480px) {
+   .aboutwrapper{
+    width: 90%;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 20px;
+    gap: 10px;
+   } 
+   .abouthead{
+    font-size: 2em;
+   }
+   .aboutpara{
+    font-size: 1em;
+    line-height: 1.5em;
+   }
+   .parahead{
+    font-size: 1.25em;
+   }
+   .lastthanks{
+    font-size: 1.25em;
+    text-align: center;
+   }
+}

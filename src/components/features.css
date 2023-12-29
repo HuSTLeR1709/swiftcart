@@ -1,0 +1,16 @@
+@media (max-width:480px) {
+ .featurestxt{
+    font-size: 1em;
+    line-height: 1.5em;
+    gap: 10px;
+ }
+ .featurescontainer{
+    padding: 15px;
+ }
+ .intxt{
+    text-align: center;
+ }
+ .featureswrapper{
+    gap: 20px;
+ }
+}
