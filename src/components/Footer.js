@@ -32,11 +32,14 @@ const Footer = () => {
         <div className='links flex flex-row justify-between items-center mt-10 mx-5 py-5'>
             <div className='tags flex text-xl gap-8 '>
                 <p className='hover:text-orange-600'><Link to='/'>Home</Link></p>
-                <p className='hover:text-orange-600'><Link to='/about' onClick={window.scrollTo(0,0)}>About us</Link></p>
+                <p className='hover:text-orange-600'><Link to='/mens'>Mens</Link></p>
+                <p className='hover:text-orange-600'><Link to='/womens'>Women</Link></p>
+                <p className='hover:text-orange-600'><Link to='/kids'>Kids</Link></p>
                 <p className='hover:text-orange-600'><Link to='/ourteam'>Our Team</Link></p>
+                <p className='hover:text-orange-600'><Link to='/about' onClick={window.scrollTo(0,0)}>About us</Link></p>
                 <p className='hover:text-orange-600' onClick={()=>{handlepages()}}>FAQ</p>
-                <p className='hover:text-orange-600' onClick={()=>{handlepages()}}>Terms of use</p>
-                <p className='hover:text-orange-600' onClick={()=>{handlepages()}}>Payments</p>
+                {/* <p className='hover:text-orange-600' onClick={()=>{handlepages()}}>Terms of use</p>
+                <p className='hover:text-orange-600' onClick={()=>{handlepages()}}>Payments</p> */}
                 <p className='hover:text-orange-600' onClick={()=>{handlepages()}}>Shipping</p>
             </div>
             <div className='icon text-3xl flex gap-8'>

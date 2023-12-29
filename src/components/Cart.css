@@ -6,6 +6,33 @@
      
 }
 
+@media (max-width:480px) {
+        .wrapper{
+                height: 50%;
+        }
+        .cart-wrapper{
+                flex-direction: column;
+        }
+        .cart-container{
+                width: 100%;
+        }
+        .itemtotal{
+                width: 90%;
+                margin-top: 4px;
+                margin-bottom: 20px;
+                margin-left: 5%;
+        }
+        .itemholder{
+                height: 50%;
+        }
+        .itemtotalwrapper{
+                gap: 5px;
+        }
+        .orderbtn{
+                margin-bottom: 20px;
+                margin-top: 1px;
+        }
+}
 /* .itemholder::-webkit-scrollbar-thumb {
     background-color: transparent; 
   } */

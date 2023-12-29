@@ -2,3 +2,35 @@
     background: #ff1d1dc6;
     color: black;
 }
+
+@media (max-width:480px) {
+    
+    .cartitemimg{
+        height: 100px;
+        width: 100px;
+    }
+    .cartitemdescname{
+        font-size: 0.75em;
+        line-height: 1.5em;
+
+    }
+    .cartitemdesc{
+        gap: 1px;
+    }
+    .sizetxt{
+        font-size: 0.75em;
+        line-height: 1.2em;
+    }
+    .quantitytxt{
+        font-size: 0.75em;
+        line-height: 1.2em;
+    }
+    .removebtn{
+        font-size: 0.75em;
+        line-height: 1.2em;
+        padding: 1px;
+    }
+    .cart-items{
+        height: 50%;
+    }
+}
