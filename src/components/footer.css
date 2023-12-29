@@ -33,6 +33,7 @@ background: linear-gradient(0deg, rgba(110,143,255,1) 8%, rgba(255,255,255,1) 80
         flex-direction: column;
         gap: 1px;
         font-size: 1em;
+        line-height: 1.35em;
     }
     .icon{
         flex-direction: column;
@@ -41,5 +42,6 @@ background: linear-gradient(0deg, rgba(110,143,255,1) 8%, rgba(255,255,255,1) 80
     }
     .footername{
         font-size: 1.8em;
+        line-height: 1.3em;
     }
 }

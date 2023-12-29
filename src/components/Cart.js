@@ -1,11 +1,19 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import Cartitems from './Cartitems'
+import { toast } from 'react-toastify';
 import './Cart.css'
 import { ShopContext } from './context/ShopContext'
 
 const Cart = () => {
   const {gettotalcost, totalcartitems} = useContext(ShopContext);
+  const handleorderbutton = () =>{
+    toast.success("Order Placed Successfully",{
+      autoClose : 2000,
+      position: "bottom-center",
+    })
+
+  }
   return (
     
     <>
@@ -53,7 +61,7 @@ const Cart = () => {
 
                 </div>
 
-                <button className='orderbtn w-5/6 border-2 p-1 text-xl font-medium rounded-3xl mt-10 bg-red-300 shadow-lg shadow-blue-500 hover:bg-blue-300'> Place Order </button>
+                <button className='orderbtn w-5/6 border-2 p-1 text-xl font-medium rounded-3xl mt-10 bg-red-300 shadow-lg shadow-blue-500 hover:bg-blue-300' onClick={()=>{handleorderbutton()}}> Place Order </button>
 
             </div>
             <div>

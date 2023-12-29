@@ -2,11 +2,13 @@ import React, {useContext} from 'react'
 import Items from './Items'
 import { ShopContext } from './context/ShopContext'
 import './womensection.css'
+import MenBanner from './MenBanner';
 
 const WomenSection = (props) => {
   const {all_product}= useContext(ShopContext);
   return (
     <>
+    <MenBanner/>
         <div className='womensmain w-full h-auto flex flex-col justify-center items-center'>
         <div className='flex w-full justify-center flex-col items-center gap-5'>
             <h1 className='womenshead text-5xl font-sm mt-8 text-blue-700'> Welcome to Women's Section </h1>
