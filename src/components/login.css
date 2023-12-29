@@ -1,0 +1,12 @@
+@media (max-width:600px) {
+    .formcontainer{
+        width: 90%;
+        height: 75%;
+    }
+    .loginwrapper{
+        height: 40em;
+    }
+    .username{
+        margin-top: 1%;
+    }
+}
