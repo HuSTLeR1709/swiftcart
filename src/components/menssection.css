@@ -1,0 +1,7 @@
+@media (max-width:480px) {
+    .menshead{
+        margin-top: 10px;
+        font-size: 2em;
+        text-align: center;
+    }
+}

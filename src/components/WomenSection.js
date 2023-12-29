@@ -1,6 +1,7 @@
 import React, {useContext} from 'react'
 import Items from './Items'
 import { ShopContext } from './context/ShopContext'
+import './womensection.css'
 
 const WomenSection = (props) => {
   const {all_product}= useContext(ShopContext);
@@ -8,7 +9,7 @@ const WomenSection = (props) => {
     <>
         <div className='womensmain w-full h-auto flex flex-col justify-center items-center'>
         <div className='flex w-full justify-center flex-col items-center gap-5'>
-            <h1 className='text-5xl font-sm mt-8 text-blue-700'> Welcome to Women's Section </h1>
+            <h1 className='womenshead text-5xl font-sm mt-8 text-blue-700'> Welcome to Women's Section </h1>
             <div className='w-1/4 border-2'></div>
         </div>
         <div className='card-container w-full h-auto flex flex-wrap justify-center items-center mt-10 gap-4'>
